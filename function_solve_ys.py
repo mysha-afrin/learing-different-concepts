@@ -1,9 +1,9 @@
 #WAF to print the length of a list (list is the parameter)
 cities = ['Dhaka', 'Chittagong', 'Khulna', 'Rajshahi', 'Barisal', 'Sylhet', 'Pabna']
 
-def print_length(citiies):
+def print_length(cities):
     print(len(cities))
-    return len(citiies)
+    return len(cities)
 
 print_length(cities)
 
@@ -15,6 +15,7 @@ print_length(cities)
 
 #WAF to print the elements of a list in a single line (list is the parameter)
 def print_elements(cities):
-    print(cities)
-    return
+    for city in cities:
+        print(city, end=' ')
+    print()
 print_elements(cities)
