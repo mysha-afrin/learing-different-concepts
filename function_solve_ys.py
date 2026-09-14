@@ -19,3 +19,15 @@ def print_elements(cities):
         print(city, end=' ')
     print()
 print_elements(cities)
+
+
+
+#WAF  to find the factorial of a number (number is the parameter)
+def factorial(n):
+    fact = 1
+    for i in range(1, n+1):
+        
+        fact *= i
+        print(fact)
+    
+factorial(6)

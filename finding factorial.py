@@ -15,3 +15,13 @@ def calculating_currency(amount, rate):
     print(converted_amount)
     return converted_amount
 calculating_currency(100, 0.85)  # Example: Convert 100 units of currency at a rate of 0.85
+
+
+def number(n):
+    if n % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+    return
+number(5)
+number(10)
